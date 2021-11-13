@@ -1,4 +1,6 @@
-body{font-family: Verdana;}
+body{
+    font-family: Verdana, sans-serif;
+}
 header{background-color: dimgray;
     color: coral;
     text-align: center;
@@ -10,18 +12,18 @@ nav{
 table{
     border-collapse: collapse;
     width: 80%;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px darkgrey;
 
 }
-table thread{
+table thead{
     background-color: aquamarine;
     color: white;
 }
 
 table td,
 table th{
-    border: 1px solid #ddd
-    padding: 8px
+    border: 1px solid #ddd;
+    padding: 8px;
 
 }
 table tr:nth-child(even) {
